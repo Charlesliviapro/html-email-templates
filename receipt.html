@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Payment Receipt</title>
+    <!--[if mso]>
+    <style type="text/css">
+        table {border-collapse: collapse; border-spacing: 0; border: 0; margin: 0;}
+    </style>
+    <![endif]-->
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, Helvetica, sans-serif;">
+    <!-- Wrapper Table -->
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f4f4f4;">
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                <!-- Main Container Table (600px) -->
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff;">
+                    
+                    <!-- Header Section -->
+                    <tr>
+                        <td style="padding: 40px 30px 20px 30px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <!-- Company Name/Logo -->
+                                    <td valign="top" width="50%">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; color: #27ae60; padding-bottom: 5px;">
+                                                    ACME Company
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; line-height: 1.5;">
+                                                    123 Business Street<br>
+                                                    Suite 456<br>
+                                                    New York, NY 10001<br>
+                                                    contact@acmecompany.com
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    
+                                    <!-- Receipt Title -->
+                                    <td valign="top" width="50%" align="right">
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="right" style="font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: bold; color: #333333; padding-bottom: 5px;">
+                                                    RECEIPT
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666666;">
+                                                    Receipt #: <strong>INV-2026-00123</strong><br>
+                                                    Date: <strong>February 12, 2026</strong>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Divider -->
+                    <tr>
+                        <td style="padding: 0 30px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="border-top: 2px solid #27ae60;">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Bill To Section -->
+                    <tr>
+                        <td style="padding: 20px 30px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333; padding-bottom: 10px;">
+                                        BILL TO:
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; line-height: 1.5;">
+                                        John Doe<br>
+                                        456 Customer Lane<br>
+                                        Apartment 789<br>
+                                        Los Angeles, CA 90001<br>
+                                        john.doe@email.com
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Items Table -->
+                    <tr>
+                        <td style="padding: 20px 30px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #e0e0e0;">
+                                <!-- Table Header -->
+                                <tr>
+                                    <td bgcolor="#f8f9fa" style="padding: 12px; background-color: #f8f9fa; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #333333; text-transform: uppercase;">
+                                        Description
+                                    </td>
+                                    <td bgcolor="#f8f9fa" align="center" style="padding: 12px; background-color: #f8f9fa; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #333333; text-transform: uppercase;">
+                                        Qty
+                                    </td>
+                                    <td bgcolor="#f8f9fa" align="right" style="padding: 12px; background-color: #f8f9fa; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #333333; text-transform: uppercase;">
+                                        Price
+                                    </td>
+                                    <td bgcolor="#f8f9fa" align="right" style="padding: 12px; background-color: #f8f9fa; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #333333; text-transform: uppercase;">
+                                        Amount
+                                    </td>
+                                </tr>
+                                
+                                <!-- Item Row 1 -->
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        Premium Subscription<br>
+                                        <span style="font-size: 12px; color: #666666;">Annual Plan (12 months)</span>
+                                    </td>
+                                    <td align="center" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        1
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $99.00
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $99.00
+                                    </td>
+                                </tr>
+                                
+                                <!-- Item Row 2 -->
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        Add-on Feature Pack<br>
+                                        <span style="font-size: 12px; color: #666666;">Enhanced analytics and reporting</span>
+                                    </td>
+                                    <td align="center" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        1
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $29.00
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 1px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $29.00
+                                    </td>
+                                </tr>
+                                
+                                <!-- Item Row 3 -->
+                                <tr>
+                                    <td style="padding: 12px; border-bottom: 2px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        Priority Support<br>
+                                        <span style="font-size: 12px; color: #666666;">24/7 dedicated assistance</span>
+                                    </td>
+                                    <td align="center" style="padding: 12px; border-bottom: 2px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        1
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 2px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $19.00
+                                    </td>
+                                    <td align="right" style="padding: 12px; border-bottom: 2px solid #e0e0e0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $19.00
+                                    </td>
+                                </tr>
+                                
+                                <!-- Subtotal Row -->
+                                <tr>
+                                    <td colspan="3" align="right" style="padding: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        Subtotal:
+                                    </td>
+                                    <td align="right" style="padding: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $147.00
+                                    </td>
+                                </tr>
+                                
+                                <!-- Tax Row -->
+                                <tr>
+                                    <td colspan="3" align="right" style="padding: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        Tax (8.5%):
+                                    </td>
+                                    <td align="right" style="padding: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;">
+                                        $12.50
+                                    </td>
+                                </tr>
+                                
+                                <!-- Total Row -->
+                                <tr>
+                                    <td colspan="3" align="right" bgcolor="#27ae60" style="padding: 15px; background-color: #27ae60; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #ffffff;">
+                                        TOTAL:
+                                    </td>
+                                    <td align="right" bgcolor="#27ae60" style="padding: 15px; background-color: #27ae60; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #ffffff;">
+                                        $159.50
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Payment Information -->
+                    <tr>
+                        <td style="padding: 20px 30px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333333; padding-bottom: 10px;">
+                                        PAYMENT INFORMATION
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f8f9fa; border-left: 4px solid #27ae60;">
+                                            <tr>
+                                                <td style="padding: 15px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333; line-height: 1.6;">
+                                                    <strong>Payment Method:</strong> Visa ending in 4242<br>
+                                                    <strong>Transaction ID:</strong> txn_1234567890abcdef<br>
+                                                    <strong>Status:</strong> <span style="color: #27ae60; font-weight: bold;">✓ PAID</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Thank You Message -->
+                    <tr>
+                        <td align="center" bgcolor="#f8f9fa" style="padding: 30px; background-color: #f8f9fa;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #333333; padding-bottom: 10px;">
+                                        Thank You for Your Purchase!
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #666666; line-height: 1.6; padding-bottom: 20px;">
+                                        We appreciate your business. If you have any questions about this receipt, please contact our support team.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <a href="#" style="display: inline-block; padding: 14px 35px; background-color: #27ae60; color: #ffffff; text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; border-radius: 4px;">
+                                            View Order Details
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 30px; border-top: 1px solid #e0e0e0;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <!-- Support Info -->
+                                <tr>
+                                    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; line-height: 1.5; padding-bottom: 15px;">
+                                        Need help? Contact us at <a href="mailto:support@acmecompany.com" style="color: #27ae60; text-decoration: underline;">support@acmecompany.com</a><br>
+                                        or call <a href="tel:+15551234567" style="color: #27ae60; text-decoration: underline;">+1 (555) 123-4567</a>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Company Info -->
+                                <tr>
+                                    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #999999; line-height: 1.5;">
+                                        ACME Company | 123 Business Street, Suite 456 | New York, NY 10001<br>
+                                        © 2026 ACME Company. All rights reserved.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
